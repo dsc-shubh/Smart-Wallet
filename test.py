@@ -6,7 +6,7 @@ from flask.views import View
 from functools import wraps
 import sqlite3
 import os
-from os import listdir	
+from os import listdir	//please add comments to ensure the reader can understand why each file is imported
 
 
 
@@ -129,4 +129,4 @@ def show_post(post_id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True,port=8210)
+    app.run(debug=True,port=8210) //very nice thanks for sharing
